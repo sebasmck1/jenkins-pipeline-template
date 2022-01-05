@@ -1,9 +1,5 @@
 pipeline {
 
-    tools {
-        gradle 'gradle-6.6.1'
-    }
-
     agent any
 
     stages {
@@ -18,6 +14,7 @@ pipeline {
 //                    gradle wrapper --gradle-version 6.6.1
 //                    ./gradlew build
 //                '''
+
 //            }
 //        }
 //        stage('Tests'){
